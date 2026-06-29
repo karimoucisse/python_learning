@@ -1,0 +1,10 @@
+Un embedding est un vecteur de nombres qui capture le sens d'un texte. Deux textes au sens proche ont des vecteurs proches.
+La similarité cosinus mesure l'angle entre deux vecteurs. Un score proche de 1 signifie que les textes sont très similaires.
+Le RAG (Retrieval Augmented Generation) combine une recherche de documents pertinents avec un LLM qui génère la réponse finale.
+pgvector est une extension de PostgreSQL qui permet de stocker des vecteurs et de faire des recherches de similarité directement en SQL.
+sentence-transformers est une bibliothèque Python qui transforme des phrases en vecteurs, en local et gratuitement.
+Le chunking consiste à découper un document en petits morceaux avant de les transformer en vecteurs pour l'indexation.
+Un transformer est une architecture de réseau de neurones basée sur le mécanisme d'attention, qui traite tous les mots d'une séquence en parallèle.
+Un LLM génératif comme GPT ou Claude produit du texte token par token, tandis qu'un embedding model produit un vecteur représentant le sens d'un texte.
+Ollama permet de faire tourner des modèles de langage localement sur sa machine, gratuitement, sans appeler une API externe.
+La recherche sémantique compare le sens d'une requête aux documents, contrairement à la recherche par mots-clés qui cherche des correspondances exactes.
